@@ -12,10 +12,3 @@
 */
 
 Route::resource('comment', 'CommentController');
-
-
-Route::get('/hello.json', function()
-{
-
-    return response()->json(['author' => 'Abigail', 'text' => 'CA']);
-});
